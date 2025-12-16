@@ -30,3 +30,70 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+########################
+# OS / Editor junk
+########################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+*.log
+
+########################
+# Python
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+*env/
+venv/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+########################
+# Project-specific
+########################
+# Ciphertext / plaintext dumps
+*.out
+*.dec
+*.enc
+
+# Large result files
+results/
+outputs/
+runs/
+
+# Temporary key testing artifacts
+keys.txt
+candidates.txt
+debug_keys.txt
+
+########################
+# Secrets / API keys
+########################
+.env.*
+*.key
+*.pem
+*.crt
+*secret*
+
